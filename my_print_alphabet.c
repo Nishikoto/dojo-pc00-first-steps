@@ -8,4 +8,5 @@ void my_print_alphabet(void)
 		write(1, &letter, 1);
 		letter++;
 	}
+	write(1, &'/n', 1);
 }
